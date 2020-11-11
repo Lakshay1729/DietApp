@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:name="Recipes"
+        android:id="@+id/recipe"
+        android:icon="@drawable/recipe"
+        android:iconTint="@android:color/darker_gray"
+        android:title="Recipe">
+
+    </item>
+    <item
+        android:name="Ingredients"
+        android:id="@+id/ingredients"
+        android:icon="@drawable/recipe"
+        android:iconTint="@android:color/darker_gray"
+        android:title="Ingredients">
+
+    </item>
+    <item
+        android:name="Products"
+        android:id="@+id/product"
+        android:icon="@drawable/recipe"
+        android:iconTint="@android:color/darker_gray"
+        android:title="Products">
+
+    </item>
+    <item
+        android:name="Menu Items"
+        android:id="@+id/menu_items"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/recipe"
+        android:iconTint="@android:color/darker_gray"
+        android:title="Menu Items">
+
+    </item>
+    <item
+        android:name="Meal Planning"
+        android:id="@+id/meal_planning"
+        android:title="Meal Planning"
+        android:iconTint="@android:color/darker_gray"
+        android:icon="@drawable/recipe"
+        app:showAsAction="always">
+
+    </item>
+
+</menu>

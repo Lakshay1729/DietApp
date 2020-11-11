@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".TabsFragments.SearchRecipes">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:boxBackgroundColor="#FAFBFA"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="#8BC34A"
+        app:boxStrokeWidth="3dp"
+        android:gravity="center"
+        android:elevation="4dp"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+
+        app:placeholderText="e.g.pizza"
+        android:padding="4dp"
+
+
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:hint="Enter your query"
+            android:id="@+id/query"
+            android:gravity="start"
+
+
+            android:textColorHint="#C9CAC6"
+
+            >
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="8"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:boxBackgroundColor="#FAFBFA"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="#8BC34A"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxStrokeWidth="3dp"
+        android:layout_weight="4"
+        android:gravity="start"
+        app:placeholderText="22 or 30"
+        android:padding="4dp"
+
+
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:hint="Max Fat"
+            android:id="@+id/maxFat"
+            android:layout_gravity="start"
+
+android:gravity="start"
+            android:textColorHint="#C9CAC6"
+
+            >
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:boxBackgroundColor="#FAFBFA"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="#8BC34A"
+        android:layout_weight="4"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxStrokeWidth="3dp"
+        android:gravity="center"
+        app:placeholderText="5 or 10"
+        android:padding="4dp"
+
+
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:hint="Number of Results"
+            android:id="@+id/number"
+            android:layout_gravity="end"
+            android:gravity="start"
+
+
+            android:textColorHint="#C9CAC6"
+
+            >
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginHorizontal="12dp"
+        android:id="@+id/searchButton"
+        android:text="Search"
+        app:cornerRadius="9dp"
+        app:elevation="8dp"
+        android:backgroundTint="#07B307"
+
+
+
+        >
+
+    </com.google.android.material.button.MaterialButton>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/recycler_view_search">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

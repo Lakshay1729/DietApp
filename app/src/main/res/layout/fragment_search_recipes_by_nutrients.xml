@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:flexWrap="nowrap"
+    app:alignItems="baseline"
+    app:flexDirection="row"
+    app:alignContent="center" >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:boxBackgroundColor="#FAFBFA"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#8BC34A"
+            app:boxCornerRadiusBottomEnd="15dp"
+            app:boxCornerRadiusTopStart="15dp"
+            app:boxStrokeWidth="3dp"
+            android:layout_weight="4"
+            android:gravity="start"
+            app:placeholderText="22 or 30"
+            android:padding="4dp"
+
+
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:hint="Max Fat"
+                android:id="@+id/maxFat"
+                android:layout_gravity="start"
+                android:gravity="start"
+                android:textColorHint="#C9CAC6"
+
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:boxBackgroundColor="#FAFBFA"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="#8BC34A"
+            android:layout_weight="4"
+            app:boxCornerRadiusBottomEnd="15dp"
+            app:boxCornerRadiusTopStart="15dp"
+            app:boxStrokeWidth="3dp"
+            android:gravity="center"
+            app:placeholderText="5 or 10"
+            android:padding="4dp"
+
+
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:hint="Number of Results"
+                android:id="@+id/minFat"
+                android:layout_gravity="end"
+                android:gravity="start"
+                android:textColorHint="#C9CAC6"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:boxBackgroundColor="#FAFBFA"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="#8BC34A"
+
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxStrokeWidth="3dp"
+        android:layout_weight="4"
+        android:gravity="start"
+        app:placeholderText="22 or 30"
+        android:padding="4dp"
+
+
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:hint="Max Fat"
+            android:id="@+id/minCarbs"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:textColorHint="#C9CAC6"
+
+            >
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:boxBackgroundColor="#FAFBFA"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="#8BC34A"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxStrokeWidth="3dp"
+        android:gravity="center"
+        app:placeholderText="5 or 10"
+        android:padding="4dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:hint="Number of Results"
+            android:id="@+id/maxCarbs"
+            android:layout_gravity="end"
+            android:gravity="start"
+            android:textColorHint="#C9CAC6"
+            >
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</com.google.android.flexbox.FlexboxLayout>

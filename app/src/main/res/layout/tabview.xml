@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:chipIcon="@drawable/recipe"
+    app:chipMinHeight="30dp"
+    android:layout_margin="5dp"
+    android:text="Hello"
+    app:iconStartPadding="2dp"
+    app:chipEndPadding="4dp"
+    app:chipStartPadding="4dp"
+    android:id="@+id/action_chip"
+    android:textColor="#ffffff"
+    app:chipCornerRadius="10dp"
+    app:chipIconTint="#ffffff"
+    app:chipBackgroundColor="@color/colorstates"
+    style="@style/Widget.MaterialComponents.Chip.Action"
+
+    />
